@@ -1,0 +1,60 @@
+#mainContainter{
+	margin: 0 auto;
+}
+
+a{
+	color: #62c458 !important;
+}
+
+.navbar{
+    background-color: #79bcdc !important;
+    text-align: center;
+    float:center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar .navbar-toggle .icon-bar{
+  background-color: #ffdf27 !important;
+}
+
+.navbar .navbar-toggle{
+  border-color: #ffdf27 !important;
+}
+
+/*make it so the logo home page button does not have the hover effect that the other buttons have*/
+a:hover,
+a:focus{
+    text-decoration: underline !important;
+	color:#79bcdc !important;
+	text-decoration-color:#79bcdc !important;
+}
+
+.navTabs{
+	padding-top: 40px;
+}
+
+#logo{
+	margin: 0 auto;
+    width:200px;
+}
+
+footer{
+	border-top: 1px black solid;
+	text-align: center;
+}
+
+@media screen and (orientation:portrait)
+{
+	.navTabs{
+		padding: 0;
+	}
+}
