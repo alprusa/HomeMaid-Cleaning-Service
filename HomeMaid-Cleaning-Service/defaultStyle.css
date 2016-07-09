@@ -69,7 +69,12 @@ a:focus{
 }
 
 #videoContainer{
-	margin auto;
+	margin: auto;
+	float: center;
+}
+
+#mainVid{
+	margin: auto;
 	width: 600px;
 	float: center;
 }
