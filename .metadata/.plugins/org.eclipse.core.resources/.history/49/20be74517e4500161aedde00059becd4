@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>About Us</title>
+		<meta name="description" content="">
+		<meta name="author" content="Alisa Prusa">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+		<link href="../defaultStyle.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		<div id="mainContainter">
+			<!--Navbar html section-->
+			<nav class="navbar navbar-static-top" role="navigation">
+                <div class="container-fluid">
+                	<div class="navbar-header">
+                        <!--Button that is created for menu when screen size reaches a certain limit-->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+       				 </div>
+
+                    <!--Buttons to go to different pages of the website-->
+                    <div class="collapse navbar-collapse" id="navItems">
+                        <ul class="nav navbar-nav">
+                            <li class="navTabs"><a href="../">Home</a></li>
+							<li class="navTabs"><a href="services/">Services</a></li>
+							<li>
+								<div class="navbar-header">
+                        			<!--Logo image button to go make to main page-->
+                       				 <a href="../"><img src="../img/TempLogo.png" class="img-responsive" id="logo"/></a>
+                   				 </div>
+								
+	                        </li>
+							<li class="navTabs"><a href="about/">About Us</a></li>
+							<li class="navTabs"><a href="contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+			</nav>
+			
+			<div id="bodyContent">
+				<div class="infoSection">
+			        <img src="../img/TempImgCleaning.png" class="img-responsive infoImg pull-left"/>
+			        <img src="../img/TempProducts.png" class="img-responsive infoImg pull-right"/>
+			        <h3 style="text-decoration: underline;">Our Story</h3>
+			        <p>Sisters from the same mother.</p>
+		        </div>
+			</div>
+
+			<footer>
+				<p style="margin-top:100px;">
+					HomeMaid Cleaning Services | (805) ###-#### | email@email.com
+				</p>
+			</footer>
+		</div>
+		
+		<script src="../jquery-1.2.0.js"></script>
+    	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
