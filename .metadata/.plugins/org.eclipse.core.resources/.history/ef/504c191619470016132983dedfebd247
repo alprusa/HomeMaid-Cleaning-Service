@@ -1,0 +1,20 @@
+.infoImg{
+	border-radius: 50%;
+}
+
+.infoSection{
+	padding-top:200px;
+	padding-bottom: 5px;
+}
+
+.names{
+	color: #62C458;
+	margin: auto;
+	text-align:center;
+	background-color:#0F5474;
+}
+
+#imgProf{
+	width: 70%;
+	margin: auto;
+}

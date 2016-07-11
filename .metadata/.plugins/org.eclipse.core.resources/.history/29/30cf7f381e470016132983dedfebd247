@@ -1,0 +1,7 @@
+textarea {
+   resize: none;
+}
+
+form{
+	width: 200px;
+}

@@ -1,0 +1,54 @@
+.infoImg{
+	border-radius: 50%;
+}
+
+.infoSection{
+	padding-top:200px;
+	padding-bottom: 5px;
+}
+
+.names{
+	color: #0F5474;
+	margin: auto;
+	text-align:center;
+	font-family: Petit Formal Script;
+}
+
+#imgProf{
+	width: 70%;
+	margin: auto;
+}
+
+@media (min-width: 950px){
+	#imgProf{
+		width: 50%;
+		margin: auto;
+	}
+}
+
+@media (max-width: 700px){
+	#imgProf{
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media (max-width: 550px){
+	#imgProf{
+		width: 100%;
+		margin: auto;
+	}
+	
+	#dena{
+		float:none;
+	}
+	
+	#teresa{
+		float:none;
+	}
+	
+	.infoSection{
+		padding-top:10px;
+		padding-bottom: 5px;
+	}
+}
