@@ -1,0 +1,16 @@
+textarea {
+   resize: none;
+}
+
+form{
+	width: 200px;
+}
+
+#submitButton{
+	margin: auto;
+	float: center;
+}
+
+.infoSection{
+	float: right;
+}

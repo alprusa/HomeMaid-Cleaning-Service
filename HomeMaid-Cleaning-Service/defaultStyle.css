@@ -63,6 +63,12 @@ a:focus{
     width:200px;
 }
 
+#appointment{
+	border-radius:2px;
+	background-color: #62C458 !important;
+	color:#0f5474 !important;
+}
+
 #bodyContent{
 	margin: auto;
 	float: center;
@@ -82,7 +88,7 @@ a:focus{
 .infoSection{
 	width: 90%;
 	margin: auto;
-	padding-bottom: 5px;
+	padding-bottom: 50px;
 }
 
 .infoImg{

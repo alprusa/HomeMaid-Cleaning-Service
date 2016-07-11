@@ -1,0 +1,13 @@
+.infoImg{
+	border-radius: 50%;
+}
+
+.infoSection{
+	padding-top:200px;
+	padding-bottom: 5px;
+}
+
+#imgProf{
+	width: 70%;
+	margin: auto;
+}

@@ -1,0 +1,27 @@
+.infoImg{
+	float: right;
+}
+
+footer{
+	margin-top: 75px;
+}
+
+@media (max-width: 450px){
+	.infoImg{
+		float: none;
+	}
+	
+	.infoSection{
+		padding-bottom: 5px;
+	}
+	
+	footer{
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 900px){
+	.infoSection{
+		padding-bottom: 80px;
+	}
+}

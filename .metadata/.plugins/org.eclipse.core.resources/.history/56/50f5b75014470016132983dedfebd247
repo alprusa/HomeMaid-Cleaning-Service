@@ -1,0 +1,13 @@
+.infoImg{
+	float: right;
+}
+
+footer{
+	margin-top: 75px;
+}
+
+@media (max-width: 400px){
+	.infoImg{
+		float: none;
+	}
+}
