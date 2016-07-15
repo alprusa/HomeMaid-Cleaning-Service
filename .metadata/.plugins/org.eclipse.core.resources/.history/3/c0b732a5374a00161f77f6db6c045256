@@ -44,8 +44,10 @@
 								<div class="navbar-header">
                         			<!--Logo image button to go make to main page-->
                        				 <a href="#"><img src="img/TempLogo.png" class="img-responsive" id="logo"/></a>
+                       				 <!--<form action="#">
+										 <button type="submit" id="appointment" href="#">Make an Appointment</button>
+									 </form>-->
                    				 </div>
-								
 	                        </li>
 							<li class="navTabs"><a href="about/">About Us</a></li>
 							<li class="navTabs"><a href="contact/">Contact</a></li>
@@ -55,11 +57,25 @@
 			</nav>
 			
 			<div id="bodyContent">
-				<video preload="auto" autoplay="autoplay" alt="coreRelease" id="trailerContainer" class="img-responsive" poster="/images/GameMapRedo.png" controls>
-		          <source src="vid/TempVid.mp4" width="854" height="400" type="video/mp4">
-		          <img src="img/TempLogo.png" title="Your browser does not support the <video> tag">
-		          Your browser does not support this HTML5 video.
-		        </video>
+				<h3 style="text-align: center;">Make your house all clean and Stuff</h3>
+				
+				<div class="videoContainer">
+				    <img src="vid/Tempgif.gif" class="img-responsive" id="mainVid" title="SplashVid">
+		        </div>
+		        
+		        <div class="infoSection">
+			        <img src="img/TempProducts.png" class="img-responsive infoImg"/>
+			        <h3 style="text-decoration: underline;">Natural Products</h3>
+			        <p>We clean with only natural products using baking soda.</p>
+			        <a href="#"><mark>Read More</mark></a>
+		        </div>
+		        
+		        <div class="infoSection">
+			        <img src="img/TempImgCleaning.png" class="img-responsive infoImg"/>
+			        <h3 style="text-decoration: underline;">Clean the Whole House</h3>
+			        <p>We clean with everything in yo house probably.</p>
+			        <a href="#"><mark>Read More</mark></a>
+		        </div>
 			</div>
 
 			<footer>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="46" version="2.0">
+<workbench progressCount="50" version="2.0">
 <workbenchAdvisor/>
 <window height="940" width="1200" x="703" y="44">
 <fastViewData fastViewLocation="1024"/>
@@ -36,21 +36,21 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html | HomeMaid-Cleaning-Service" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/index.html" title="index.html | HomeMaid-Cleaning-Service" tooltip="HomeMaid-Cleaning-Service/index.html" workbook="DefaultEditorWorkbook">
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html | HomeMaid-Cleaning-Service" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/index.html" title="index.html | HomeMaid-Cleaning-Service" tooltip="HomeMaid-Cleaning-Service/index.html" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2383" selectionTopPixel="642"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="858" selectionTopPixel="270"/>
 </editor>
 <editor id="com.aptana.editor.css" name="defaultStyle.css" partName="defaultStyle.css" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/defaultStyle.css" title="defaultStyle.css" tooltip="HomeMaid-Cleaning-Service/defaultStyle.css" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/defaultStyle.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1452" selectionTopPixel="1018"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1312" selectionTopPixel="1110"/>
 </editor>
-<editor id="com.aptana.editor.html" name="index.html" partName="index.html | contact" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/contact/index.html" title="index.html | contact" tooltip="HomeMaid-Cleaning-Service/contact/index.html" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html | contact" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/contact/index.html" title="index.html | contact" tooltip="HomeMaid-Cleaning-Service/contact/index.html" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/contact/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2135" selectionTopPixel="437"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2701" selectionTopPixel="675"/>
 </editor>
-<editor id="com.aptana.editor.html" name="index.html" partName="index.html | about" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/about/index.html" title="index.html | about" tooltip="HomeMaid-Cleaning-Service/about/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/about/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2267" selectionTopPixel="354"/>
+<editor id="com.aptana.editor.css" name="contact.css" partName="contact.css" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/contact/contact.css" title="contact.css" tooltip="HomeMaid-Cleaning-Service/contact/contact.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/contact/contact.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -82,7 +82,7 @@
 <element path="/HomeMaid-Cleaning-Service/services"/>
 </expanded>
 <selection>
-<element path="/HomeMaid-Cleaning-Service/services/index.html"/>
+<element path="/HomeMaid-Cleaning-Service/contact/contact.css"/>
 </selection>
 </project>
 </viewState>
@@ -194,162 +194,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/HomeMaid-Cleaning-Service/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/HomeMaid-Cleaning-Service/defaultStyle.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/HomeMaid-Cleaning-Service/services/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/HomeMaid-Cleaning-Service/contact/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/HomeMaid-Cleaning-Service/about/index.html"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/HomeMaid-Cleaning-Service/services/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/HomeMaid-Cleaning-Service/services/servicesStyle.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/HomeMaid-Cleaning-Service/about/about.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/HomeMaid-Cleaning-Service/contact/contact.css"/>
 </editors>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2778" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="844" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="286" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="626" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2383" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="844" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1313" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="2768" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2588" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="279" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1143" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="3151" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2588" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="89" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position/>
+<item historyLabel="defaultStyle.css" index="0">
+<position info="not_deleted" x="1312" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2652" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="240" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position/>
+<item historyLabel="defaultStyle.css" index="0">
+<position info="not_deleted" x="1312" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2498" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="240" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1082" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="3304" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="240" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1082" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="3069" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2383" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="167" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1031" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="3012" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2383" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="183" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="983" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="3073" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2383" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="238" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1082" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="772" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2383" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1082" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="2913" y="3"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2383" y="0"/>
+<item historyLabel="servicesStyle.css" index="3">
+<position info="not_deleted" x="314" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1051" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="2913" y="3"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="3140" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="500" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1262" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="2972" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="3205" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="458" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="153" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="2972" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="3205" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="458" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1208" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="2812" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="3033" y="0"/>
+<item historyLabel="about.css" index="4">
+<position info="not_deleted" x="453" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="263" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="3272" y="0"/>
 </item>
-<item historyLabel="index.html | services" index="2">
-<position info="not_deleted" x="2786" y="0"/>
+<item historyLabel="index.html | about" index="2">
+<position info="not_deleted" x="3282" y="0"/>
 </item>
-<item historyLabel="index.html | contact" index="3">
-<position info="not_deleted" x="2616" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="2696" y="0"/>
 </item>
-<item historyLabel="index.html | about" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="231" y="0"/>
 </item>
-<item historyLabel="index.html | contact" index="3">
-<position info="not_deleted" x="2485" y="121"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="757" y="0"/>
 </item>
-<item historyLabel="index.html | about" index="4">
-<position info="not_deleted" x="2730" y="0"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="231" y="0"/>
 </item>
-<item historyLabel="index.html | contact" index="3">
-<position info="not_deleted" x="273" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="2701" y="0"/>
 </item>
-<item historyLabel="index.html | about" index="4">
-<position info="not_deleted" x="2267" y="0"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="231" y="0"/>
 </item>
-<item historyLabel="index.html | contact" index="3">
-<position info="not_deleted" x="2135" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="2978" y="0"/>
 </item>
-<item historyLabel="index.html | services" index="5">
-<position info="not_deleted" x="1560" y="0"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="154" y="0"/>
 </item>
-<item historyLabel="index.html | contact" index="3">
-<position info="not_deleted" x="2135" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="3319" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2498" y="0"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="105" y="0"/>
 </item>
-<item historyLabel="index.html | contact" index="3">
-<position info="not_deleted" x="2135" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="3319" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="263" y="0"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="228" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2498" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="3319" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1066" y="1"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="101" y="0"/>
 </item>
-<item historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2498" y="0"/>
+<item historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="3319" y="0"/>
 </item>
-<item historyLabel="defaultStyle.css" index="1">
-<position info="not_deleted" x="1452" y="0"/>
+<item historyLabel="contact.css" index="5">
+<position info="not_deleted" x="10" y="0"/>
 </item>
-<item active="true" historyLabel="index.html | HomeMaid-Cleaning-Service" index="0">
-<position info="not_deleted" x="2498" y="0"/>
+<item active="true" historyLabel="index.html | contact" index="1">
+<position info="not_deleted" x="3319" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -373,6 +373,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="contact.css" tooltip="HomeMaid-Cleaning-Service/contact/contact.css">
+<persistable path="/HomeMaid-Cleaning-Service/contact/contact.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="servicesStyle.css" tooltip="HomeMaid-Cleaning-Service/services/servicesStyle.css">
+<persistable path="/HomeMaid-Cleaning-Service/services/servicesStyle.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="about.css" tooltip="HomeMaid-Cleaning-Service/about/about.css">
+<persistable path="/HomeMaid-Cleaning-Service/about/about.css"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="HomeMaid-Cleaning-Service/services/index.html">
 <persistable path="/HomeMaid-Cleaning-Service/services/index.html"/>
 </file>
