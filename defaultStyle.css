@@ -1,31 +1,41 @@
+
+body{
+	background-color: #73C69C !important;
+}
+
 #mainContainter{
 	width: 95%;
 	margin: auto;
+	background-color: #73C69C !important;
+	
 }
 
 a{
-	color: #62c458 !important;
+	color: #73C69C !important;
 }
 
 mark{
-	color:#62C458 !important;
-	background-color: #0F5474 !important;
+	color:#FFFFFF !important;
+	background-color: #73C69C !important;
+	border: 1px #000000 solid;
 }
 
 mark:hover{
-	color:#0F5474 !important;
-	background-color: #62C458 !important;
+	color:#73C69C !important;
+	background-color: #FFFFFF !important;
 	text-decoration: underline;
+	text-decoration-color: #000000 !important;
 }
 
 h3{
-	color: #0f5474 !important;
+	color: #FFFFFF !important;
 }
 
 .navbar{
-    background-color: #0f5474 !important;
+    background-color: #FFFFFF !important;
     text-align: center;
     float:center;
+    border: 2px black solid !important;
 }
 
 .navbar .navbar-nav {
@@ -39,19 +49,20 @@ h3{
 }
 
 .navbar .navbar-toggle .icon-bar{
-  background-color: #62c458 !important;
+  background-color: #73C69C !important;
 }
 
 .navbar .navbar-toggle{
-  border-color: #62c458 !important;
+  border-color: #73C69C !important;
 }
 
 /*make it so the logo home page button does not have the hover effect that the other buttons have*/
 a:hover,
 a:focus{
     text-decoration: underline !important;
-	color:#0f5474 !important;
-	text-decoration-color:#0f5474 !important;
+	color:#FFFFFF !important;
+	background-color: #73C69C !important;
+	text-decoration-color:#000000 !important;
 }
 
 .navTabs{
@@ -65,8 +76,8 @@ a:focus{
 
 #appointment{
 	border-radius:2px;
-	background-color: #62C458 !important;
-	color:#0f5474 !important;
+	background-color: #73C69C !important;
+	color:#FFFFF !important;
 }
 
 #bodyContent{
@@ -95,12 +106,12 @@ a:focus{
 	width: 200px;
 	height: 100px;
 	margin: auto;
-	border: 2px #62C458 solid;
+	border: 2px black solid;
 	margin-top: 5px;
 }
 
 footer{
-	border-top: 1px black solid;
+	border-top: 1px white solid;
 	text-align: center;
 }
 
