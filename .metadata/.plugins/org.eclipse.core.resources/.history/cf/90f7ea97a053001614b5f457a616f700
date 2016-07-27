@@ -1,0 +1,27 @@
+textarea {
+   resize: none;
+   margin: auto;
+   padding-left: 4px;
+}
+
+form{
+	margin: auto;
+	width: 150px;
+	border: 1px black solid;
+}
+
+#submitButton{
+	margin: auto;
+	float: center;
+}
+
+.infoSection{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+
+formBox{
+	
+	size: 3px;
+}
