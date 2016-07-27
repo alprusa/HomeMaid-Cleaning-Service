@@ -1,16 +1,16 @@
 textarea {
    resize: none;
    margin: auto;
-   padding-left: 4px;
 }
 
 form{
 	margin: auto;
 	width: 150px;
+	border: 1px black solid;
 }
 
 #submitButton{
-	margin: auto;
+	margin: 0 auto;
 	float: center;
 }
 
@@ -18,4 +18,10 @@ form{
 	padding-top: 10px;
 	padding-bottom: 5px;
 	margin: auto;
+}
+
+.formBox{
+	margin: 0 auto;
+	margin-left: 0.3px;
+	width: 148px;
 }
