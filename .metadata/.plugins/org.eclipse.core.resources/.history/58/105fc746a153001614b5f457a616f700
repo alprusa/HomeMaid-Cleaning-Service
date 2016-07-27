@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Contact</title>
+		<meta name="description" content="">
+		<meta name="author" content="Alisa Prusa">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+		<link href="../defaultStyle.css" rel="stylesheet" type="text/css">
+		<link href="contact.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		<div id="mainContainter">
+			<!--Navbar html section-->
+			<nav class="navbar navbar-static-top" role="navigation">
+                <div class="container-fluid">
+                	<div class="navbar-header">
+                        <!--Button that is created for menu when screen size reaches a certain limit-->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+       				 </div>
+
+                    <!--Buttons to go to different pages of the website-->
+                    <div class="collapse navbar-collapse" id="navItems">
+                        <ul class="nav navbar-nav">
+                        	<li>
+								<div class="navbar-header">
+                        			<!--Logo image button to go make to main page-->
+                       				 <a href="../"><img src="../img/HMLogo.png" class="img-responsive" id="logo"/></a>
+                       				 <!--<form action="#">
+										 <button type="submit" id="appointment" href="#">Make an Appointment</button>
+									 </form>-->
+                   				 </div>
+	                        </li>
+                            <li class="navTabs"><a href="../">Home</a></li>
+							<li class="navTabs"><a href="../services/">Services</a></li>
+							<li class="navTabs"><a href="../contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+			</nav>
+			
+			<div id="bodyContent">
+				<h3 style="text-align: center;">Make your house all clean and Stuff</h3>
+				
+				<form action="#">
+	 				<p style="text-align: center;"><b>Message Us:</b></p>
+					<input type="text" class="formBox" name="email" id="email" placeholder="Your email" size="4" required><br>
+					<input type="text" class="formBox" name="Subject" id="Subject" placeholder="Subject" size="4" required><br>
+					<textarea type="text" class="formBox" name="Message" rows=4 id="Message" placeholder="Your Message" required></textarea>
+					<input id="submitButton" class="gVButton" type="submit" value="Send" style="margin-top: 5px;">
+					<p style="color: #E82C0C;" id="errorText" class="hidden">Sorry there was an issue sending your message.</p>
+	 			</form>
+		        
+		        <div class="infoSection">
+		        	<p><b>Contact Us:</b>
+			        <a id="emails" href="mailto:homemaidcleaningservices@yahoo.com?subject=Golden View Senior Services">
+                     	<mark>email</mark>
+                     </a></p>
+			        <p><b>Phone: </b>(805) ###-####</p>
+		        </div>
+			</div>
+
+			<footer>
+				<p>
+					HomeMaid Cleaning Services | (805) ###-#### | email@email.com
+				</p>
+			</footer>
+		</div>
+		
+		<script src="../jquery-1.2.0.js"></script>
+    	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
