@@ -17,7 +17,7 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		
-		<link href="defaultStyle.css" rel="stylesheet" type="text/css">
+		<link href="defaultStyle.css" rel="stylesheet" type="text/css">\
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	</head>
 
@@ -28,6 +28,7 @@
                 <div class="container-fluid">
                 	<div class="navbar-header">
                 		<a href="#"><img src="img/HMLogo.png" class="img-responsive navbar-toggle" id="logoSmall"/></a>
+                		
                         <!--Button that is created for menu when screen size reaches a certain limit-->
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="collapseButton">
                             <span class="icon-bar"></span>
@@ -39,6 +40,7 @@
                     <!--Buttons to go to different pages of the website-->
                     <div class="collapse navbar-collapse" id="navItems">
                         <ul class="nav navbar-nav">
+                        	<li class="navTabs"><a href="#">Home</a></li>
                         	<li>
 								<div class="navbar-header">
                         			<!--Logo image button to go make to main page-->
@@ -48,50 +50,61 @@
 									 </form>-->
                    				 </div>
 	                        </li>
-                            <li class="navTabs"><a href="#">Home</a></li>
-							<li class="navTabs"><a href="services/">Services</a></li>
 							<li class="navTabs"><a href="contact/">Contact</a></li>
                         </ul>
                     </div>
+                    
+                    <p id="busniessNum">License No. 007114</p>
                 </div>
 			</nav>
 			
 			<div id="bodyContent">
-				<h3 style="text-align: center;">We make your house all clean and Stuff</h3>
+				<h3 id="slogText">Your maid-to-order cleaning service, because every home needs a maid.</h3>
 				
 				<div class="videoContainer">
-				    <img src="vid/Tempgif.gif" class="img-responsive" id="mainVid" title="SplashVid">
+				    <img src="vid/HMSGif.gif" class="img-responsive" id="mainVid">
 		        </div>
 		        
-		        <div class="infoSection">
-			        <img src="img/TempProducts.png" class="img-responsive infoImg"/>
-			        <h3 style="text-decoration: underline;">Natural Products</h3>
-			        <p>We clean with only natural products using baking soda.</p>
-			        <a href="#"><mark>Read More</mark></a>
-		        </div>
+		        <h4 id="headText">HomeMaid Cleaining Service is your locally owned and operated business
+		        	with your personal cleaning needs in mind.</h4>
 		        
-		        <div class="infoSection">
-			        <img src="img/TempImgCleaning.png" class="img-responsive infoImg"/>
-			        <h3 style="text-decoration: underline;">Clean the Whole House</h3>
-			        <p>We clean with everything in yo house probably.</p>
-			        <a href="#"><mark>Read More</mark></a>
-		        </div>
+		        <div id="mainText">
+			        <div class="infoSection row">
+			        	<div class="col-sm-5 infoText">
+					        <h3 style="text-decoration: underline;">House Cleaning</h3>
+					        <p>General cleaning of all interior rooms. We will discuss special requests during consultation.</p>
+				        </div>
+			       		<img src="img/TempImgCleaning.png" class="img-responsive infoImg col-sm-5"/>
+			        </div>
+			        
+			        <div class="infoSection row">
+			        	<div class="col-sm-5 infoText">
+					        <h3 style="text-decoration: underline;">Cleaning Products</h3>
+					        <p>We supply all our own cleaning supplies.</p>
+				        </div>
+				        <img src="img/TempProducts.png" class="img-responsive infoImg col-sm-5"/>
+			        </div>
+			      
+			        <div class="infoSection row">
+			        	<div class="col-sm-5 infoText">
+					        <h3 style="text-decoration: underline;">Operation</h3>
+					        <p>Our operation times are Mondays thru Thursdays 8:00am-6pm. We do weekly, monthly, and one time
+					        	only service agreements. We provide free in home estimates</p>
+				        </div>
+				        <img src="img/HMLogo.png" class="img-responsive infoImg col-sm-5"/>
+			        </div>
+			   </div>
 			</div>
 
 			<footer>
 				<p>
-					HomeMaid Cleaning Service <br> (805) ###-####
+					HomeMaid Cleaning Service <br> Call: (805) 865 - 4633
 				</p>
-				
-				<p>
-                	<a href="#">Home</a> |
-                	<a href="services/">Services</a> |
-                	<a href="contact/">Contact</a>
-                </p>
 			</footer>
 		</div>
 		
 		<script src="jquery-1.2.0.js"></script>
     	<script src="bootstrap/js/bootstrap.min.js"></script>
+    	<!--<script src="HtmlPos.js"></script>-->
 	</body>
 </html>
