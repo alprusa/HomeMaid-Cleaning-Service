@@ -90,7 +90,7 @@ a:focus{
 	bottom: 5px;
 	border: 1px solid #73C69C;
 	border-radius: 5px;
-	padding-left: 2px;
+	padding-left: 1px;
 	padding-right: 2px;
 }
 

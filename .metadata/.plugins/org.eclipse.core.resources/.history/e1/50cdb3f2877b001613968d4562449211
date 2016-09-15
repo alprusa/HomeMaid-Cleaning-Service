@@ -85,15 +85,6 @@ a:focus{
 	padding-right: 2px;
 }
 
-#lompoc{
-	float: left;
-	bottom: 5px;
-	border: 1px solid #73C69C;
-	border-radius: 5px;
-	padding-left: 2px;
-	padding-right: 2px;
-}
-
 #collapseButton{
 	top: 8px;
 }
@@ -135,8 +126,6 @@ a:focus{
 #headText{
 	margin: auto;
 	text-align: center;
-	padding: 0px;
-	padding-top: 5px;
 	width: 70%;
 }
 
@@ -171,17 +160,12 @@ footer{
 	margin: 0 auto;
 }
 
-@media (max-width: 780px){
-	#headText{
-		width: 100%;
-		padding: 5px;
-		padding-bottom: 0px;
-	}
-}
-
-
 @media (max-width: 450px){
 	#logo{
 		width: 150px;
+	}
+	
+	#headText{
+		width: 90%;
 	}
 }
