@@ -63,7 +63,7 @@
 				<h3 id="slogText">Your maid-to-order cleaning service, because every home needs a maid.</h3>
 				
 				<div class="videoContainer">
-				    <img src="vid/HMSGif.gif" class="img-responsive" id="mainVid" placeholder="img/HMLogo.png">
+				    <img src="vid/HMSGif.gif" class="img-responsive" id="mainVid">
 		        </div>
 		        
 		        <h4 id="headText">HomeMaid Cleaining Service is your locally owned and operated business
