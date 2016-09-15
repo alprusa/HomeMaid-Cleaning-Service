@@ -1,4 +1,3 @@
-
 body{
 	background-color: #73C69C !important;
 }
@@ -30,6 +29,10 @@ h3{
 	color: #73C69C !important;
 }
 
+h4{
+	color: #73C69C !important;
+}
+
 .navbar{
     background-color: #FFFFFF !important;
     text-align: center;
@@ -57,7 +60,7 @@ h3{
 }
 
 .navbar-collapse .navTabs {
-	padding: 0;
+	margin: auto;
 }
 
 /*make it so the logo home page button does not have the hover effect that the other buttons have*/
@@ -71,6 +74,15 @@ a:focus{
 
 .navTabs{
 	padding-top: 40px;
+}
+
+#busniessNum{
+	float: right;
+	bottom: 5px;
+	border: 1px solid #73C69C;
+	border-radius: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 #collapseButton{
@@ -96,13 +108,11 @@ a:focus{
 }
 
 #bodyContent{
-	margin: auto;
-	float: center;
+	margin: 0 auto;
 }
 
 #videoContainer{
-	margin: auto;
-	float: center;
+	margin: 0 auto;
 }
 
 #mainVid{
@@ -113,10 +123,27 @@ a:focus{
 	border-top: 10px #73C69C solid;
 }
 
+#headText{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#slogText{
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#mainText{
+	margin: auto;
+	padding-left: 20%;
+	padding-bottom: 5px;
+}
+
 .infoSection{
 	width: 90%;
 	margin: auto;
-	padding-bottom: 50px;
 }
 
 .infoImg{
@@ -130,4 +157,11 @@ a:focus{
 footer{
 	border-top: 10px #73C69C solid;
 	text-align: center;
+	margin: 0 auto;
+}
+
+@media (max-width: 450px){
+	#logo{
+		width: 150px;
+	}
 }

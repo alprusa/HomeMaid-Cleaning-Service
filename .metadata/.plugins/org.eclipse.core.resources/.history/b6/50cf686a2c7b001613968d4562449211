@@ -1,0 +1,6 @@
+$('.infoText').each(function(i, iT) {
+    $('.infoImg').each(function(i, iI) {
+	    $(iT).insertBefore($(iI).prev());
+	});
+});
+
