@@ -158,11 +158,11 @@ a:focus{
 }
 
 .infoImg{
-	width: 200px;
-	height: 100px;
 	margin: auto;
-	border: 10px #73C69C solid;
 	margin-top: 5px;
+	width: 200px;
+	padding: 0 !important;
+	border: 10px #73C69C solid;
 }
 
 footer{
