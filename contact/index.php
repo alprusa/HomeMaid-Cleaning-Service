@@ -3,10 +3,9 @@
 		$email = $_POST['email'];
         $Subject = $_POST['Subject'];
 		$Message = $_POST['Message'];
-		$to = 'contact@homemaidcleaningservice.net'; 
-		$subject = 'Message from Contact Demo ';
+		$to = 'contact@homemaidcleaningservice.net';
 		
-		$body = "From: E-Mail: $email\n Subject: $Subject\n Message:\n $message";
+		$body = "From:\nE-Mail: $email\n Subject: $Subject\n Message:\n $Message";
  
 		// Check if name has been entered
 		if (!$_POST['Subject']) {
@@ -25,10 +24,10 @@
  
 // If there are no errors, send the email
 if (!$errSubject && !$errEmail && !$errMessage) {
-	if (mail ($to, $body)) {
-		$result='<div action="index.html" class="alert alert-success">Thank You! We will be in touch</div>';
+	if (mail ($to, $Subject, $body, $email)) {
+		$result='Thank You! We will be in touch';
 	} else {
-		$result='<div action="index.html" class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
+		$result='Sorry there was an error sending your message. Please try again later';
 	}
 }
 	}
@@ -101,6 +100,7 @@ if (!$errSubject && !$errEmail && !$errMessage) {
 					<input type="text" class="formBox" name="Subject" id="Subject" placeholder="Subject" required><br>
 					<textarea type="text" class="formBox" name="Message" rows=4 id="Message" placeholder="Your Message" required></textarea>
 					<input id="submitButton" class="gVButton" type="submit" name="submit" value="Send" style="margin-top: 5px;">
+                    <?php echo "<p class='text-danger'>$result</p>";?>
 					<p style="color: #E82C0C;" id="errorText" class="hidden">Sorry there was an issue sending your message.</p>
 	 			</form>
 		        
