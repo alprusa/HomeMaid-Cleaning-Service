@@ -3,8 +3,7 @@
 		$email = $_POST['email'];
         $Subject = $_POST['Subject'];
 		$Message = $_POST['Message'];
-		$to = 'contact@homemaidcleaningservice.net'; 
-		$subject = 'Message from Contact Demo ';
+		$to = 'contact@homemaidcleaningservice.net';
 		
 		$body = "From: E-Mail: $email\n Subject: $Subject\n Message:\n $message";
  
@@ -97,6 +96,7 @@ if (!$errSubject && !$errEmail && !$errMessage) {
 				
 				<form role="form" method="post" action="index.php">
 	 				<p style="text-align: center;"><b>Message Us:</b></p>
+                    <input type="text" class="formBox" name="Name" id="Name" placeholder="Your Name" required><br>
 					<input type="text" class="formBox" name="email" id="email" placeholder="Your email" required><br>
 					<input type="text" class="formBox" name="Subject" id="Subject" placeholder="Subject" required><br>
 					<textarea type="text" class="formBox" name="Message" rows=4 id="Message" placeholder="Your Message" required></textarea>

@@ -1,13 +1,14 @@
 <?php
 	if (isset($_POST["submit"])) {
+        $Name = $_POST['Name'];
 		$email = $_POST['email'];
         $Subject = $_POST['Subject'];
 		$Message = $_POST['Message'];
 		$to = 'contact@homemaidcleaningservice.net';
 		
-		$body = "From:\nE-Mail: $email\n Subject: $Subject\n Message:\n $Message";
+		$body = "From: $Name\nE-Mail: $email\nSubject: $Subject\nMessage:\n $Message";
  
-		// Check if name has been entered
+		// Check if subject has been entered
 		if (!$_POST['Subject']) {
 			$errSubject = 'Please enter a subject';
 		}
@@ -22,14 +23,14 @@
 			$errMessage = 'Please enter your message';
 		}
  
-// If there are no errors, send the email
-if (!$errSubject && !$errEmail && !$errMessage) {
-	if (mail ($to, $Subject, $body, $email)) {
-		$result='Thank You! We will be in touch';
-	} else {
-		$result='Sorry there was an error sending your message. Please try again later';
-	}
-}
+        // If there are no errors, send the email
+        if (!$errSubject && !$errEmail && !$errMessage) {
+            if (mail ($to, $Subject, $body, $email)) {
+                $result='<p class="text-success">Thank You! We will be in touch</p>';
+            } else {
+                $result='<p class="text-danger">Sorry there was an error sending your message. Please try again later</p>';
+            }
+        }
 	}
 ?>
 
@@ -96,17 +97,17 @@ if (!$errSubject && !$errEmail && !$errMessage) {
 				
 				<form role="form" method="post" action="index.php">
 	 				<p style="text-align: center;"><b>Message Us:</b></p>
+                    <input type="text" class="formBox" name="Name" id="Name" placeholder="Your Name" required><br>
 					<input type="text" class="formBox" name="email" id="email" placeholder="Your email" required><br>
 					<input type="text" class="formBox" name="Subject" id="Subject" placeholder="Subject" required><br>
 					<textarea type="text" class="formBox" name="Message" rows=4 id="Message" placeholder="Your Message" required></textarea>
 					<input id="submitButton" class="gVButton" type="submit" name="submit" value="Send" style="margin-top: 5px;">
-                    <?php echo "<p class='text-danger'>$result</p>";?>
-					<p style="color: #E82C0C;" id="errorText" class="hidden">Sorry there was an issue sending your message.</p>
+                    <?php echo "$result";?>
 	 			</form>
 		        
 		        <div class="infoSection">
 		        	<p><b>Contact Us:</b>
-			        <a id="emails" href="mailto:contact@homemaidcleaningservice.net?subject=Golden View Senior Services">
+			        <a id="emails" href="mailto:contact@homemaidcleaningservice.net?subject=HomeMaid Cleaning Service">
                      	<mark>email</mark>
                      </a></p>
 			        <p><b>Phone: </b>(805) 865 - 4633</p>
