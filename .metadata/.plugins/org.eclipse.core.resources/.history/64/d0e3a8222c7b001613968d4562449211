@@ -1,3 +1,0 @@
-$('.infoSection').each(function(i, el) {
-    $(i).insertBefore($(el).prev());
-});
