@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="41" version="2.0">
 <workbenchAdvisor/>
 <window height="940" width="1200" x="703" y="44">
 <fastViewData fastViewLocation="1024"/>
@@ -31,17 +31,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="1"/>
 <part id="0"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.css" name="defaultStyle.css" partName="defaultStyle.css" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/defaultStyle.css" title="defaultStyle.css" tooltip="HomeMaid-Cleaning-Service/defaultStyle.css" workbook="DefaultEditorWorkbook">
+<editor id="com.aptana.editor.css" name="defaultStyle.css" partName="defaultStyle.css" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/defaultStyle.css" title="defaultStyle.css" tooltip="HomeMaid-Cleaning-Service/defaultStyle.css" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/defaultStyle.css"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/index.html" title="index.html" tooltip="HomeMaid-Cleaning-Service/index.html" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/index.html"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3982" selectionTopPixel="453"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html" path="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/HomeMaid-Cleaning-Service/about/index.html" title="index.html" tooltip="HomeMaid-Cleaning-Service/about/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HomeMaid-Cleaning-Service/about/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="600"/>
 </editor>
 </editors>
 <views>
@@ -69,14 +74,17 @@
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="HomeMaid-Cleaning-Service">
 <project name="HomeMaid-Cleaning-Service">
+<expanded>
+<element path="/HomeMaid-Cleaning-Service/about"/>
+</expanded>
 <selection>
-<element path="/HomeMaid-Cleaning-Service/HtmlPos.js"/>
+<element path="/HomeMaid-Cleaning-Service/about/index.html"/>
 </selection>
 </project>
 </viewState>
 </view>
 </views>
-<perspectives activePart="com.aptana.editor.css" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.html" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -183,13 +191,9 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/defaultStyle.css"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/HomeMaid-Cleaning-Service/contact/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/HomeMaid-Cleaning-Service/contact/contact.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/HomeMaid-Cleaning-Service/about/about.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/HomeMaid-Cleaning-Service/about/index.html"/>
 </editors>
-<item historyLabel="index.html" index="1">
-<position/>
-</item>
-<item historyLabel="defaultStyle.css" index="0">
-<position/>
-</item>
 <item historyLabel="index.html" index="1">
 <position/>
 </item>
@@ -331,8 +335,14 @@
 <item historyLabel="index.html" index="1">
 <position info="not_deleted" x="3982" y="0"/>
 </item>
-<item active="true" historyLabel="defaultStyle.css" index="0">
+<item historyLabel="defaultStyle.css" index="0">
 <position info="not_deleted" x="1233" y="0"/>
+</item>
+<item historyLabel="about.css" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="index.html" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -351,6 +361,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="HomeMaid-Cleaning-Service/about/index.html">
+<persistable path="/HomeMaid-Cleaning-Service/about/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="about.css" tooltip="HomeMaid-Cleaning-Service/about/about.css">
+<persistable path="/HomeMaid-Cleaning-Service/about/about.css"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="defaultStyle.css" tooltip="/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/defaultStyle.css">
 <persistable uri="file:/Users/alisaprusa/Documents/HomeMaid-Cleaning-Service/defaultStyle.css"/>
 </file>
@@ -369,14 +385,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="HomeMaid-Cleaning-Service/index.html">
 <persistable path="/HomeMaid-Cleaning-Service/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="HomeMaid-Cleaning-Service/about/index.html">
-<persistable path="/HomeMaid-Cleaning-Service/about/index.html"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="contact.css" tooltip="HomeMaid-Cleaning-Service/contact/contact.css">
 <persistable path="/HomeMaid-Cleaning-Service/contact/contact.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="about.css" tooltip="HomeMaid-Cleaning-Service/about/about.css">
-<persistable path="/HomeMaid-Cleaning-Service/about/about.css"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="HomeMaid-Cleaning-Service/contact/index.html">
 <persistable path="/HomeMaid-Cleaning-Service/contact/index.html"/>
