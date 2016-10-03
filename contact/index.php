@@ -89,6 +89,8 @@
 							<li class="navTabs"><a href="../contact/">Contact</a></li>
                         </ul>
                     </div>
+
+                     <p id="busniessNum">License No. 007114</p>
                 </div>
 			</nav>
 			
