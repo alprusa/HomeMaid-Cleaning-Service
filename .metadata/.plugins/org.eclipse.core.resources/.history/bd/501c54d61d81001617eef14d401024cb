@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>HomeMaid Cleaning Services</title>
+		<meta name="description" content="">
+		<meta name="author" content="Alisa Prusa">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+		<link href="defaultStyle.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		<div id="mainContainter">
+			<!--Navbar html section-->
+			<nav class="navbar navbar-static-top" role="navigation">
+                <div class="container-fluid">
+                	<div class="navbar-header">
+                		<a href="#"><img src="img/HMLogo.png" class="img-responsive navbar-toggle" id="logoSmall"/></a>
+                		
+                        <!--Button that is created for menu when screen size reaches a certain limit-->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="collapseButton">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+       				 </div>
+
+                    <!--Buttons to go to different pages of the website-->
+                    <div class="collapse navbar-collapse" id="navItems">
+                        <ul class="nav navbar-nav">
+                        	<li class="navTabs"><a href="#">Home</a></li>
+                        	<li>
+								<div class="navbar-header">
+                        			<!--Logo image button to go make to main page-->
+                       				 <a href="#"><img src="img/HMLogo.png" class="img-responsive" id="logo"/></a>
+                       				 <!--<form action="#">
+										 <button type="submit" id="appointment" href="#">Make an Appointment</button>
+									 </form>-->
+                   				 </div>
+	                        </li>
+							<li class="navTabs"><a href="contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <p id="lompoc">Servicing the Lompoc Valley Area</p>
+                    <p id="busniessNum">License No. 007114</p>
+                </div>
+			</nav>
+			
+			<div id="bodyContent">
+				<h3 id="slogText">Your maid-to-order cleaning service, because every home needs a maid.</h3>
+				
+				<div class="videoContainer">
+				    <img src="vid/HMSGif.gif" class="img-responsive" id="mainVid" placeholder="img/HMLogo.png">
+		        </div>
+		        
+		        <h4 id="headText">HomeMaid Cleaning Service is your locally owned and operated business
+		        	with your personal cleaning needs in mind.</h4>
+		        
+		        <div id="mainText">
+			        <div class="infoSection row">
+			        	<div class="col-sm-5 infoText">
+					        <h3 style="text-decoration: underline;">House Cleaning</h3>
+					        <p>General cleaning of all interior rooms. We will discuss special requests during your
+					        	 free consultation.</p>
+				        </div>
+			       		<img src="img/Cleaning.JPG" class="img-responsive infoImg col-sm-5"/>
+			        </div>
+			        
+			        <div class="infoSection row">
+			        	<div class="col-sm-5 infoText">
+					        <h3 style="text-decoration: underline;">Cleaning Products</h3>
+					        <p>We supply all our own cleaning supplies.</p>
+				        </div>
+				        <img src="img/CleaningProducts.JPG" class="img-responsive infoImg col-sm-5"/>
+			        </div>
+			      
+			        <div class="infoSection row">
+			        	<div class="col-sm-5 infoText">
+					        <h3 style="text-decoration: underline;">Operation</h3>
+					        <p>Our operation times are Mondays thru Thursdays 8:00am-6pm. We do weekly, monthly, and one time
+					        	only service agreements. We provide free in home estimates.</p>
+				        </div>
+				        <img src="img/HMLogo.png" class="img-responsive infoImg col-sm-5"/>
+			        </div>
+			   </div>
+			</div>
+
+			<footer>
+				<p>
+					HomeMaid Cleaning Service <br> Call: (805) 865 - 4633
+				</p>
+			</footer>
+		</div>
+		
+		<script src="jquery-1.2.0.js"></script>
+    	<script src="bootstrap/js/bootstrap.min.js"></script>
+    	<!--<script src="HtmlPos.js"></script>-->
+	</body>
+</html>
